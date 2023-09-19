@@ -1,0 +1,188 @@
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+
+    <link rel="stylesheet" href="C:\Users\dell\Desktop\git\info.txt">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            
+        </ul>
+
+
+
+    </nav>
+    <section id="home" style="background-image: url(https://ik.imagekit.io/houseofcoders/wp-content/uploads/2017/10/portfolio-background.png);">
+       
+        <h2 class="heading" >HI,I AM</h2>
+        <h1 data-text="AISHWARY BAJPAI">AISHWARY BAJPAI</h1>
+        <br><br>
+       <p>AND THIS IS MY RESUME</p>
+        <br>
+       <form action="#home">
+       <input  type="button"id="download"  style="background-color:black;  border-radius: 5%;  color: white; padding: 10%; border:black;" class="btn btn-primary" value="Download Resume">
+       </form>
+    </section>
+    <hr>
+    <section id="about" style="background-image: url(https://www.desktopbackground.org/download/1680x1050/2013/07/30/615486_photography-portfolio-websites-minimalist-amazing-1920x1080-hd_1920x1080_h.jpg);">
+        <h1 class="heading">About Me</h1>
+        <div class="about">
+            <img src="WhatsApp Image 2023-09-18 at 11.36.17.jpeg" alt="my picture" style="max-width: 100%;">
+            <div class="name">
+            <h2>I'm Aishwary Bajpai</h2>
+            <p style="font-size: large;">An enthusiatic ,talented ,ambitious and hardworking individual . I'm really passinate about learning and
+                gaining knowledge , I'm always looking for new ways to learn and improve my skills.I'm also a firm believer
+                of teamwork,and belive that working together is the best way to achieve success. </p>
+            </div>
+        </div>
+        </section>
+        <hr>
+    <section id="portfolio" style="background-image: url(https://www.desktopbackground.org/download/1680x1050/2013/07/30/615486_photography-portfolio-websites-minimalist-amazing-1920x1080-hd_1920x1080_h.jpg)">
+        <h1 class="heading">Skills</h1>
+       <div class="gallery">
+
+        <img src="img1.jpg" alt="no image">
+        <img src="img5.png" alt="no image">
+        <img src="img2.jpg" alt="no image">
+        <img src="img4.webp" alt="no image">
+        
+       </div>
+
+    </section>
+    <hr>
+    <section id="education" style="background-image: url(https://www.desktopbackground.org/download/1680x1050/2013/07/30/615486_photography-portfolio-websites-minimalist-amazing-1920x1080-hd_1920x1080_h.jpg);">
+        <h1 class="heading">Education</h1>
+        <div class="columns">
+            <div class="box">
+                <h2>Qualifications</h2>
+                <p>
+                    <ul type="bullet" style="color:white">
+                        <li><h4>X - RPM Inter College, Kanpur</h4></li>
+                        <li>Successfully completed my X board with 83% in the year 2019.
+                        </li>
+                        <li><h4>XII - RPM Inter College, Kanpur </h4></li>
+                        <li>Successfull completed my XII board with 80.8% in the year 2021.</li>
+    
+                    </ul> 
+                </p>
+            </div>
+            <div class="box">
+                <h2>Ajay Kumar Garg Engineering College</h2>
+                <p>
+                    <ul type="bullet" style="color:white" >
+                        <li>Currently pursuing Bachelors degree from this prestigious college.
+                        </li>
+                        <li>Successfully completed my first year with  8.25 sgpa , second year with 7.35 sgpa currently in my third year of bachelor degree.</li>
+                        
+    
+                    </ul> 
+                </p>
+            </div>
+            
+            <div class="box">
+                <h2>Bachelor of Computer Sciene and Information Technology</h2>
+                <p>
+                    <ul type="bullet" style="color:white">
+                        <li>Heavy focus one full stack engineering with modules on both front and back end processes.
+                        </li>
+                        <li>Currently learning competitive programming and data structures in Java.</li>
+                        <li>Skills include Java,C,C++,HTML,CSS, Javascript and React JS.</li>
+    
+                    </ul> 
+                </p>
+            </div>
+            <div class="box">
+                <h2>Skills </h2>
+                <p>
+                    <ul type="bullet" style="color:white">
+                        <li>Got the certification from Google in the Fundamentals of Digital Marketing.
+                        </li>
+                        <li>Currently learning competitive programming and data structures in C++.</li>
+                        <li>Skills include Java,C,C++,HTML,CSS,Javascript,React JS.</li>
+                        <li>5 star coder in C++ on hackerrank.</li>
+    
+                    </ul> 
+                </p>
+            </div>
+    
+        
+        
+        
+        
+    </section><hr >
+  
+
+    <section id="contact" style="background-image: url(https://www.desktopbackground.org/download/1680x1050/2013/07/30/615486_photography-portfolio-websites-minimalist-amazing-1920x1080-hd_1920x1080_h.jpg);">
+        <h1 class="heading">Contact Me</h1>
+        <form   method="post"   class="form" id="contactForm">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="message" id="message" cols="55" rows="20" placeholder="Enter Your Message" required></textarea>
+            <input type="button" style="background-color:black;  padding: 12px; color:white;border: black;" class="btn btn-primary" value="Submit" id="submit">
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <section class="container">
+           <!-- <div class="about1">
+                <h3>About Me</h3>
+                <ul> <li>
+                <p>An enthusiatic ,talented ,ambitious and hardworking individual . I'm really passinate about learning and
+                    gaining knowledge , I'm always looking for new ways to learn and improve my skills.I'm also a firm believer
+                    of teamwork,and belive that working together is the best way to achieve success.</p>
+                </li></ul> </div>
+            <div classs="services">
+                <h3>Services</h3>
+                <ul> 
+                    <li><a href="#portfolio">Service 1</a><br></li>
+                   <li> <a href="#portfolio">Service 2</a><br></li>
+                  <li><a href="#portfolio">Service 3</a><br></li>
+                  <li><a href="#portfolio">Service 4</a><br></li>
+                </ul>
+                   
+            </div> -->
+            <div class="contact">
+                <h2>Contact</h2>
+                <ul>
+                 
+                    <li>Phone no.:7651915729</li>
+                    <li>Email:baishwary755@gmail.com</li>
+                    
+                </ul>
+            </div>
+        </section>
+        <section class="copyright">Copyright &copy;Company name</section>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js">
+        document.getElementById('download').addEventListener('click',function(){
+            const pdfUrl="Black & White Simple Profile Resume.pdf";
+            window.open(pdfUrl,'_blank');
+            setTimeout(function(){
+                const link=document.createElement('a');
+            link.href=pdfUrl;
+            link.download="document.pdf"
+            link.click();},1000)
+            
+        });
+        document.getElementById('submit').addEventListener('click',function(){
+            alert('Message sent successfully');
+                swal.fire("Thank You! Responsive received Successfully","success");
+        });
+
+        
+
+    </script>
+  
+</body>
